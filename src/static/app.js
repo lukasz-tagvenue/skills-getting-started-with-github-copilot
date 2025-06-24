@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="participants-section" style="margin-top: 12px;">
               <strong style="display:block; margin-bottom: 4px;">Participants:</strong>
               <ul class="participants-list" style="margin-left: 18px; margin-bottom: 0; padding-left: 18px;">
-                ${details.participants.map(p => `<li style=\"margin-bottom:2px;\"><a href=\"mailto:${p}\" style=\"color:#1a237e;text-decoration:underline;\">${p}</a></li>`).join('')}
+                ${details.participants.map(p => `<li style=\"margin-bottom:2px;\">${p}</li>`).join('')}
               </ul>
             </div>
           `;
